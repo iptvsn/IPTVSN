@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 function Cover() {
   const onButtonClicked = () => {
     window.open(
-      `https://wa.me/+212667256799?text=Request Free trial`,
+      `https://wa.me/+221776958673?text=Bonjour, je voudrais tester votre service IPTV`,
       "_blank"
     );
   };
@@ -32,7 +32,7 @@ function Cover() {
             transition={{ duration: 1.2 }}
             className="text-white text-center font-bold text-[1.2rem] md:text-[1.5rem] lg:text-3xl"
           >
-            All-In-One IPTV Quality Service
+            Découvrez IPTVSN - La meilleure solution IPTV au Sénégal!
           </motion.h1>
           <motion.p
             className="text-white text-center text-[0.8rem] mt-2 md:mt-4 md:text-[1.1rem] lg:text-xl"
@@ -40,8 +40,7 @@ function Cover() {
             initial={{ x: "-100vh", opacity: 0 }}
             transition={{ duration: 1.5 }}
           >
-            Stream your favorite movies, TV shows, and sports events in stunning
-            HD quality with our IPTV service.
+           Nous avons hâte de vous accueillir dans notre communauté d'utilisateurs satisfaits et de vous offrir une expérience IPTV exceptionnelle.
           </motion.p>
           <motion.p
             className="text-white text-center text-[0.8rem] mt-2 md:mt-4 md:text-[1.1rem] lg:text-xl"
@@ -49,15 +48,14 @@ function Cover() {
             initial={{ x: "-100vh", opacity: 0 }}
             transition={{ duration: 1.8 }}
           >
-            Experience the ultimate entertainment at your fingertips with our
-            cutting-edge IPTV service.
+            IPTVSN utilise une technologie de pointe pour assurer une diffusion en continu fluide et une qualité d'image exceptionnelle. Profitez d'une résolution HD et 4K pour une expérience visuelle immersive.
           </motion.p>
 
           <button
             onClick={onButtonClicked}
             className="mt-4 w-[80px] h-[35px] text-[0.8rem] bg-[#F2E416] font-bold rounded-lg shadow-xl cursor-pointer md:w-[130px] md:h-[40px] md:text-[1.2rem]"
           >
-            Free Trial
+            Demander un essai gratuit
           </button>
           {/* LEAGUES LOGO  */}
           <div className="w-full flex flex-row justify-center mt-4 md:mt-8">
