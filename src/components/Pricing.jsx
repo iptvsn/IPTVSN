@@ -15,7 +15,7 @@ function Pricing() {
       discountPrice: "10 000",
     },
     {
-      period: "9 Mois",
+      period: "12 Mois",
       normalPrice: "24 000",
       discountPrice: "19 500",
     },
